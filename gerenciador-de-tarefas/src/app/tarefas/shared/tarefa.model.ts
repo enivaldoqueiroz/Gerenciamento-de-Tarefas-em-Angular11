@@ -1,4 +1,4 @@
-export class Terefa {
+export class Tarefa {
     
     constructor(
         //?: - utilizando o operador ? os valores são opcional 
