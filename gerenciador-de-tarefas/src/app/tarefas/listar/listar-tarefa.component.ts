@@ -17,10 +17,10 @@ export class ListarTarefaComponent implements OnInit {
 
   ngOnInit(): void {
     this.tarefas = this.listarTodos();
-    this.tarefas = [
+    /*this.tarefas = [
       new Tarefa(1, "Tarefa1", false),
       new Tarefa(2, "Tarefa 2", true)
-    ];
+    ];*/
   }
   //Listas todas as tarefas
   listarTodos(): Tarefa[]{
